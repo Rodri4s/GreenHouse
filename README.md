@@ -51,7 +51,7 @@ Par almacenar los usuarios al sistema se utilizó el template set y sus distinta
 ### Makefile
 Por último se creó un makefile que permitiera complirar archivos de C++ y que buscara los archivos de cabeca en la carpeta include, luego que buscara todos los .cpp en la carpeta src para luego crear los archivos .o a partir de ellos y finalmente, ejecurar el main que se encuentra en la carpeta build. Luego se colocaron ciertas reglas para poder correr todo el programa y posterior a ello, se colocó el ejecutable a través de el comando make y el comando ./main. Por último, se colocó un clean para limpiar la carpeta src de los ficheros .o para luego poder volver a correr el comando make si es que se realizó algún cambio en el programa.
 
-# Uso del sistema
+## Uso del sistema
 1. Primero habrá que correr el Makefile, por lo que sólamente abrá que correr el comando make en una terminar localizada en donde se encuentran todos nuestros programas.
 2. Luego, se debe utilizar el comando ./build/main para poder correr el programa.
 3. Actualmente, el fichero users.dat ya cuenta con unos usuarios autorizados para correr la simulación, pero se recomienda que para el primer intento, al solicitar un 4. Nombre de usuario se utilice la palabra Rodrigo y para el NIF se utilicé A00827047
