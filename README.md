@@ -6,16 +6,16 @@ Con esta última práctica se concluye el final del desarrollo del sistema de mo
 Como se ha ido mencionado en las prácticas anteriores, se crearon 11 clases para el desarrolo del sistema de monitoreo:
 
 1. User: creación del usuario a través de su nombre y el nif, para luego validarlo y autenticarlo.
-Dashboard: interfaz del sistema de monitoreo para introducir la opción que se desea observar de este.
-Sensor: Lectura de distintos sensores:
-AirQ: Simulación de lectura de la calidad del aire del invernadero.
-Humidity: Simulación de lectura de la humedad del invernader.
-IlluminationLv: Simulación de lectura de los niveles de iluminación del invernadero.
-Temperature: Simulación de lectura de la temperatura del invernadero.
-Camera: Lectura de distintas camaras:
-Thermic: Simulación de lectura de cámaras térmicas del invernadero.
-RGB: Simulación de lectura de cámaras RGB del invernadero.
-InvalidUserException: Excepción a la hora de introducir un usuario inválido o que no tiene permiso para utilizar el sistema de monitoreo.
+2. Dashboard: interfaz del sistema de monitoreo para introducir la opción que se desea observar de este.
+3. Sensor: Lectura de distintos sensores:
+4. AirQ: Simulación de lectura de la calidad del aire del invernadero.
+5. Humidity: Simulación de lectura de la humedad del invernader.
+6. IlluminationLv: Simulación de lectura de los niveles de iluminación del invernadero.
+7. Temperature: Simulación de lectura de la temperatura del invernadero.
+8. Camera: Lectura de distintas camaras:
+9. Thermic: Simulación de lectura de cámaras térmicas del invernadero.
+10. RGB: Simulación de lectura de cámaras RGB del invernadero.
+11. InvalidUserException: Excepción a la hora de introducir un usuario inválido o que no tiene permiso para utilizar el sistema de monitoreo.
 En donde estas estarían relacionadas tanto por herencia o por asocición para ayudar en la creación del sistema deseado a través del programa principal main.cpp
 
 Main
