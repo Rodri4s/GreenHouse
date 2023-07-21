@@ -15,13 +15,13 @@ Como se ha ido mencionado en las prácticas anteriores, se crearon 11 clases par
 8. Camera: Lectura de distintas camaras:
 9. Thermic: Simulación de lectura de cámaras térmicas del invernadero.
 10. RGB: Simulación de lectura de cámaras RGB del invernadero.
-11. InvalidUserException: Excepción a la hora de introducir un usuario inválido o que no tiene permiso para utilizar el sistema de monitoreo.
+11. InvalidUserException: Excepción a la hora de introducir un usuario inválido o que no tiene permiso para utilizar el sistema de monitoreo.  
 En donde estas estarían relacionadas tanto por herencia o por asocición para ayudar en la creación del sistema deseado a través del programa principal main.cpp
 
-Main
+### Main
 En el main se iniciaron colocando todas las cabeceras de las clases mencionadas anteriormente y unas librerías para poder realizar el programa. Posteriormente, se solicita al usuario a escribir su nombre y nif para crear el usuario y luego utilizar los métodos de la clase User para autenticar y verificar el Usuario para observar si este tiene permitido usar la interfaz o no. Si este tiene los perimsos se corre la clase Dashboard para empezar con la selección de opciones que se quieran realizar del sistema, de lo contrario se corre la clase de InvalidUserException para volver a intentar introducir un usuario que sí tenga permitido usar el sistema de monitoreo.
 
-Herencia
+### Herencia
 Ya que se solicitó implementar herencia para el desarrollo de esta práctica y como se fue trabajando en las prácticas anteriores, la herencia que se utilizó fue entre la clase Sensor con las distintas opciones (AirQ, Temperature, Humidity, IlluminationLv) para simular que al momento de escoger una de estas en la interface, hiciera parecer como que dicho sensor está obteniendo los datos; mismo caso para la clase Cámara con la RGB y Thermic.
 
 Para poder realizarse, se definieron en los headers de las clases hijas, que estas podrían utilizar los métodos públicos de las clases padres. Y luego se implementó esto en los .cpp de cada una de las clases hijas para su uso. A continuación se muestra un ejemplo:
@@ -34,7 +34,7 @@ void AirQ::readAirQ(){
 readSensorVal();
 }
 
-Patrón: Method-Method
+### Patrón: Method-Method
 Después de observar los posibles patrónes que se podían utilizar de la ppt de Patrones, se optó por utilizar el patrón de Method-Method, ya que, utilizando el ejemplo anterior, el método de readAirQ() está mandando a llamar el método de readSensorVal() y así para los demás tipos de herencia que se realizaron para las otras clases Padre-Hijo. Lo cual simplificaría el programa al momento de llamar los métodos de las clases padres(Camara y Sensor). Creando así los siguientes patrones:
 
 Sensor()
