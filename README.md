@@ -26,23 +26,23 @@ Ya que se solicitó implementar herencia para el desarrollo de esta práctica y 
 
 Para poder realizarse, se definieron en los headers de las clases hijas, que estas podrían utilizar los métodos públicos de las clases padres. Y luego se implementó esto en los .cpp de cada una de las clases hijas para su uso. A continuación se muestra un ejemplo:
 
-Cabecera AirQ.h
-class AirQ: public Sensor{...}
+Cabecera AirQ.h  
+class AirQ: public Sensor{...}  
 
-AirQ.cpp
-void AirQ::readAirQ(){
-readSensorVal();
-}
+AirQ.cpp  
+void AirQ::readAirQ(){  
+readSensorVal();  
+}  
 
 ### Patrón: Method-Method
 Después de observar los posibles patrónes que se podían utilizar de la ppt de Patrones, se optó por utilizar el patrón de Method-Method, ya que, utilizando el ejemplo anterior, el método de readAirQ() está mandando a llamar el método de readSensorVal() y así para los demás tipos de herencia que se realizaron para las otras clases Padre-Hijo. Lo cual simplificaría el programa al momento de llamar los métodos de las clases padres(Camara y Sensor). Creando así los siguientes patrones:
 
-Sensor()
-AirQ()
+* Sensor()
+** AirQ()
 Humidity()
 IlluminationLv()
 Temperature()
-Camara()
+* Camara()
 RGB()
 Thermic()
 Base de Datos: Set de pares
