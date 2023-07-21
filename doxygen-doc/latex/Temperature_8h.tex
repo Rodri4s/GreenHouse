@@ -1,0 +1,84 @@
+\hypertarget{Temperature_8h}{}\doxysection{Temperature.\+h File Reference}
+\label{Temperature_8h}\index{Temperature.h@{Temperature.h}}
+
+
+Herencia \mbox{\hyperlink{classSensor}{Sensor}} y \mbox{\hyperlink{classTemperature}{Temperature}}.  
+
+
+{\ttfamily \#include \char`\"{}Sensor.\+h\char`\"{}}\newline
+Include dependency graph for Temperature.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=167pt]{Temperature_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Temperature_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classTemperature}{Temperature}}
+\begin{DoxyCompactList}\small\item\em Declaracion de clase \mbox{\hyperlink{classTemperature}{Temperature}} hija de \mbox{\hyperlink{classSensor}{Sensor}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Herencia \mbox{\hyperlink{classSensor}{Sensor}} y \mbox{\hyperlink{classTemperature}{Temperature}}. 
+
+Verifica las credenciales del usuario para dar permiso de usar la interface o no.
+
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+21/12/2022 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Rodrigo Rodas Barrera @title Detector de Temperatura 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{int} \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}}()\{}
+\DoxyCodeLine{ \mbox{\hyperlink{classTemperature}{Temperature}} temp = \mbox{\hyperlink{classTemperature}{Temperature}}();}
+\DoxyCodeLine{ temp.\mbox{\hyperlink{classTemperature_af8a536644a9cfc807424aa64f548e979}{readTemp}}();}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+21/12/2022 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Rodrigo Rodas Barrera @title Verificacion de Usuario 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{int} \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}}()\{}
+\DoxyCodeLine{     \textcolor{keywordtype}{string} \_name = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{     std::cout << \textcolor{stringliteral}{"{}Write your user name: "{}};}
+\DoxyCodeLine{     std::cin >> \_name;}
+\DoxyCodeLine{}
+\DoxyCodeLine{     \textcolor{keywordtype}{string} \_nif = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{     std::cout << \textcolor{stringliteral}{"{}Write your NIF: "{}};}
+\DoxyCodeLine{     std::cin >> \_nif;}
+\DoxyCodeLine{}
+\DoxyCodeLine{     \textcolor{keywordtype}{bool} valid;}
+\DoxyCodeLine{     }
+\DoxyCodeLine{     \mbox{\hyperlink{classUser}{User}} p1 = \mbox{\hyperlink{classUser}{User}}(\_name, \_nif);      \textcolor{comment}{//Crea un usuario y prueba si sus datos son correctos.}}
+\DoxyCodeLine{     p1.\mbox{\hyperlink{classUser_aacf2b0582c290c7fdfce771dc400f278}{leer}}();}
+\DoxyCodeLine{     valid = p1.\mbox{\hyperlink{classUser_a2ce1d13d4e4c3e2a5d3f88a8df45792b}{authenticateUser}}();}
+\DoxyCodeLine{     p1.\mbox{\hyperlink{classUser_adb5f56bef04b321e73936de4775eb827}{verifyUser}}(valid);}
+\DoxyCodeLine{     p1.\mbox{\hyperlink{classUser_aae4ce9bc118c22d682b44403e1d0f221}{verifyNif}}(valid);}
+\DoxyCodeLine{     std::cout << \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ 
+\end{DoxyAuthor}

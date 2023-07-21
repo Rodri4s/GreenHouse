@@ -1,0 +1,4 @@
+<map id="IlluminationLv::readIlluminationLv" name="IlluminationLv::readIlluminationLv">
+<area shape="rect" id="node1" title="Lectura del nivel de Illumination." alt="" coords="5,5,249,32"/>
+<area shape="rect" id="node2" href="$classSensor.html#a539251b81919773d9255b39e25b1e936" title="Lectura de datos de Sensores." alt="" coords="297,5,464,32"/>
+</map>

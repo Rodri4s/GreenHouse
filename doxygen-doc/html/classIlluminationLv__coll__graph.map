@@ -1,0 +1,4 @@
+<map id="IlluminationLv" name="IlluminationLv">
+<area shape="rect" id="node1" title="Declaracion clase IlluminationLv hija de Sensor." alt="" coords="5,160,175,267"/>
+<area shape="rect" id="node2" href="$classSensor.html" title="Declaracion de clase padre Sensor." alt="" coords="20,5,160,112"/>
+</map>

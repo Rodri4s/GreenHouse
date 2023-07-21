@@ -1,0 +1,4 @@
+<map id="Temperature" name="Temperature">
+<area shape="rect" id="node1" title="Declaracion de clase Temperature hija de Sensor." alt="" coords="5,160,145,267"/>
+<area shape="rect" id="node2" href="$classSensor.html" title="Declaracion de clase padre Sensor." alt="" coords="5,5,145,112"/>
+</map>

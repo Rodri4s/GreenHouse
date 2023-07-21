@@ -1,0 +1,6 @@
+<map id="Camera::readCameraVal" name="Camera::readCameraVal">
+<area shape="rect" id="node1" title="Lectura de datos Camera." alt="" coords="321,31,503,57"/>
+<area shape="rect" id="node2" href="$classRGB.html#ad72a2db0f1e107627dfe156a0324d990" title="Lectura de RGB." alt="" coords="133,5,248,32"/>
+<area shape="rect" id="node4" href="$classThermic.html#a382d1da7d1d1bb51db6bf171f38481cb" title="Lectura de camaras Termicas." alt="" coords="108,56,273,83"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>

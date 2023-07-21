@@ -1,0 +1,4 @@
+<map id="AirQ::readAirQ" name="AirQ::readAirQ">
+<area shape="rect" id="node1" title="Lectura de AirQ." alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node2" href="$classSensor.html#a539251b81919773d9255b39e25b1e936" title="Lectura de datos de Sensores." alt="" coords="168,5,335,32"/>
+</map>

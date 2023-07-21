@@ -1,0 +1,234 @@
+\hypertarget{classDashboard}{}\doxysection{Dashboard Class Reference}
+\label{classDashboard}\index{Dashboard@{Dashboard}}
+
+
+Declaracion de clase \mbox{\hyperlink{classDashboard}{Dashboard}}.  
+
+
+
+
+{\ttfamily \#include $<$Dashboard.\+h$>$}
+
+
+
+Collaboration diagram for Dashboard\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=176pt]{classDashboard__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDashboard_a0e6f5adac5375dd723e98c5e3a2ebb64}{Dashboard}} ()
+\begin{DoxyCompactList}\small\item\em Constructor de clase \mbox{\hyperlink{classDashboard}{Dashboard}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDashboard_a43a9becd0adb8641b81174de35842690}{$\sim$\+Dashboard}} ()
+\begin{DoxyCompactList}\small\item\em Destructor de clase \mbox{\hyperlink{classDashboard}{Dashboard}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDashboard_a783ee7cdf51ebbce302d50d2d38dd3eb}{exit}} ()
+\begin{DoxyCompactList}\small\item\em La salida de la interface. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classDashboard_ad5fd593661038d67cd95f2cc62262ed7}{show\+Menu}} ()
+\begin{DoxyCompactList}\small\item\em Muestra las oopciones de la intefaz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDashboard_ac9a629cc083f62b2b5dae0aa57fd2aa5}{selection}} (int)
+\begin{DoxyCompactList}\small\item\em Marca la opcion de lo que se quiere observar de la interfaz. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{classDashboard_aea566c3bef21fdd64cc7d062fc8485a8}{timestamp}}
+\item 
+int \mbox{\hyperlink{classDashboard_a0e0cdd3e0e9683844b073af39f454051}{action}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Declaracion de clase \mbox{\hyperlink{classDashboard}{Dashboard}}. 
+
+Definition at line 17 of file Dashboard.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDashboard_a0e6f5adac5375dd723e98c5e3a2ebb64}\label{classDashboard_a0e6f5adac5375dd723e98c5e3a2ebb64}} 
+\index{Dashboard@{Dashboard}!Dashboard@{Dashboard}}
+\index{Dashboard@{Dashboard}!Dashboard@{Dashboard}}
+\doxysubsubsection{\texorpdfstring{Dashboard()}{Dashboard()}}
+{\footnotesize\ttfamily Dashboard\+::\+Dashboard (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor de clase \mbox{\hyperlink{classDashboard}{Dashboard}}. 
+
+
+
+Definition at line 13 of file Dashboard.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{13 \{\}                \textcolor{comment}{//Constructor}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classDashboard_a43a9becd0adb8641b81174de35842690}\label{classDashboard_a43a9becd0adb8641b81174de35842690}} 
+\index{Dashboard@{Dashboard}!````~Dashboard@{$\sim$Dashboard}}
+\index{````~Dashboard@{$\sim$Dashboard}!Dashboard@{Dashboard}}
+\doxysubsubsection{\texorpdfstring{$\sim$Dashboard()}{~Dashboard()}}
+{\footnotesize\ttfamily Dashboard\+::$\sim$\+Dashboard (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor de clase \mbox{\hyperlink{classDashboard}{Dashboard}}. 
+
+
+
+Definition at line 15 of file Dashboard.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{15 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDashboard_a783ee7cdf51ebbce302d50d2d38dd3eb}\label{classDashboard_a783ee7cdf51ebbce302d50d2d38dd3eb}} 
+\index{Dashboard@{Dashboard}!exit@{exit}}
+\index{exit@{exit}!Dashboard@{Dashboard}}
+\doxysubsubsection{\texorpdfstring{exit()}{exit()}}
+{\footnotesize\ttfamily void Dashboard\+::exit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+La salida de la interface. 
+
+\begin{DoxyReturn}{Returns}
+Cierre de la interfaz 
+\end{DoxyReturn}
+
+
+Definition at line 18 of file Dashboard.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{18                     \{}
+\DoxyCodeLine{19     std::cout << \textcolor{stringliteral}{"{}End of program "{}}<< std::endl;}
+\DoxyCodeLine{20 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{classDashboard_a783ee7cdf51ebbce302d50d2d38dd3eb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDashboard_ac9a629cc083f62b2b5dae0aa57fd2aa5}\label{classDashboard_ac9a629cc083f62b2b5dae0aa57fd2aa5}} 
+\index{Dashboard@{Dashboard}!selection@{selection}}
+\index{selection@{selection}!Dashboard@{Dashboard}}
+\doxysubsubsection{\texorpdfstring{selection()}{selection()}}
+{\footnotesize\ttfamily void Dashboard\+::selection (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+
+
+Marca la opcion de lo que se quiere observar de la interfaz. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & Numero entre 0 y 7 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lectura de la opcion seleccionada 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDashboard_ad5fd593661038d67cd95f2cc62262ed7}\label{classDashboard_ad5fd593661038d67cd95f2cc62262ed7}} 
+\index{Dashboard@{Dashboard}!showMenu@{showMenu}}
+\index{showMenu@{showMenu}!Dashboard@{Dashboard}}
+\doxysubsubsection{\texorpdfstring{showMenu()}{showMenu()}}
+{\footnotesize\ttfamily int Dashboard\+::show\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Muestra las oopciones de la intefaz. 
+
+\begin{DoxyReturn}{Returns}
+Una interfaz de 8 opciones para escoger de sensores, camaras o actualizar base de datos 
+\end{DoxyReturn}
+
+
+Definition at line 22 of file Dashboard.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{22                        \{}
+\DoxyCodeLine{23     \textcolor{keywordtype}{int} \mbox{\hyperlink{classDashboard_a0e0cdd3e0e9683844b073af39f454051}{action}};}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25     std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl;}
+\DoxyCodeLine{26     std::cout << \textcolor{stringliteral}{"{}Select the corresponding option to see: "{}} << std::endl << std::endl;}
+\DoxyCodeLine{27     std::cout << \textcolor{stringliteral}{"{}0) New Authorization"{}} << std::endl;}
+\DoxyCodeLine{28     std::cout << \textcolor{stringliteral}{"{}1) Temperature"{}} << std::endl;}
+\DoxyCodeLine{29     std::cout << \textcolor{stringliteral}{"{}2) Humidity"{}} << std::endl;}
+\DoxyCodeLine{30     std::cout << \textcolor{stringliteral}{"{}3) Air Quality"{}} << std::endl;}
+\DoxyCodeLine{31     std::cout << \textcolor{stringliteral}{"{}4) Illumination"{}} << std::endl;}
+\DoxyCodeLine{32     std::cout << \textcolor{stringliteral}{"{}5) RGB Camera"{}} << std::endl;}
+\DoxyCodeLine{33     std::cout << \textcolor{stringliteral}{"{}6) Thermica Camera"{}} << std::endl;}
+\DoxyCodeLine{34     std::cout << \textcolor{stringliteral}{"{}7) Exit"{}} << std::endl;}
+\DoxyCodeLine{35     std::cout << \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/"{}} << std::endl << std:: endl;}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37     std::cin >> \mbox{\hyperlink{classDashboard_a0e0cdd3e0e9683844b073af39f454051}{action}};}
+\DoxyCodeLine{38     \textcolor{keywordflow}{return} \mbox{\hyperlink{classDashboard_a0e0cdd3e0e9683844b073af39f454051}{action}};}
+\DoxyCodeLine{39 \}}
+
+\end{DoxyCode}
+
+
+References action.
+
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{classDashboard_ad5fd593661038d67cd95f2cc62262ed7_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classDashboard_a0e0cdd3e0e9683844b073af39f454051}\label{classDashboard_a0e0cdd3e0e9683844b073af39f454051}} 
+\index{Dashboard@{Dashboard}!action@{action}}
+\index{action@{action}!Dashboard@{Dashboard}}
+\doxysubsubsection{\texorpdfstring{action}{action}}
+{\footnotesize\ttfamily int Dashboard\+::action\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 47 of file Dashboard.\+h.
+
+
+
+Referenced by show\+Menu().
+
+\mbox{\Hypertarget{classDashboard_aea566c3bef21fdd64cc7d062fc8485a8}\label{classDashboard_aea566c3bef21fdd64cc7d062fc8485a8}} 
+\index{Dashboard@{Dashboard}!timestamp@{timestamp}}
+\index{timestamp@{timestamp}!Dashboard@{Dashboard}}
+\doxysubsubsection{\texorpdfstring{timestamp}{timestamp}}
+{\footnotesize\ttfamily float Dashboard\+::timestamp\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 46 of file Dashboard.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Dashboard_8h}{Dashboard.\+h}}\item 
+\mbox{\hyperlink{Dashboard_8cpp}{Dashboard.\+cpp}}\end{DoxyCompactItemize}

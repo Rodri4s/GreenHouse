@@ -1,0 +1,4 @@
+<map id="Humidity.h" name="Humidity.h">
+<area shape="rect" id="node1" title="Herencia Sensor y Humidity." alt="" coords="5,5,97,32"/>
+<area shape="rect" id="node2" href="$Sensor_8h.html" title="Genera el padre Sensor." alt="" coords="13,80,90,107"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Camera" name="Camera">
+<area shape="rect" id="node1" title="Declaracion de la clase padre Camera." alt="" coords="55,5,201,112"/>
+<area shape="rect" id="node2" href="$classRGB.html" title="Declaracion de la clase RGB hija de Camera." alt="" coords="5,160,109,267"/>
+<area shape="rect" id="node3" href="$classThermic.html" title="Declaracion de clase Thermic hija de Camera." alt="" coords="134,160,263,267"/>
+</map>

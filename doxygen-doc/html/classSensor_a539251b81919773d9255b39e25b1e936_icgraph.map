@@ -1,0 +1,8 @@
+<map id="Sensor::readSensorVal" name="Sensor::readSensorVal">
+<area shape="rect" id="node1" title="Lectura de datos de Sensores." alt="" coords="400,81,567,108"/>
+<area shape="rect" id="node2" href="$classAirQ.html#a9f86e6adcaf3fb9cea220cb2d77fddca" title="Lectura de AirQ." alt="" coords="173,5,287,32"/>
+<area shape="rect" id="node4" href="$classHumidity.html#aac879fb7bc5555ae53542b6808bc3991" title="Lectura de Humedad." alt="" coords="141,56,319,83"/>
+<area shape="rect" id="node5" href="$classIlluminationLv.html#a33667f2708a1601d4afeb10a303b11c0" title="Lectura del nivel de Illumination." alt="" coords="108,107,352,133"/>
+<area shape="rect" id="node6" href="$classTemperature.html#af8a536644a9cfc807424aa64f548e979" title="Lectura de Temperature." alt="" coords="142,157,318,184"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,81,60,108"/>
+</map>

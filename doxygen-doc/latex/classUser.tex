@@ -1,0 +1,600 @@
+\hypertarget{classUser}{}\doxysection{User Class Reference}
+\label{classUser}\index{User@{User}}
+
+
+Declaracion de clase \mbox{\hyperlink{classUser}{User}}.  
+
+
+
+
+{\ttfamily \#include $<$User.\+h$>$}
+
+
+
+Collaboration diagram for User\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{classUser__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUser_a01533a724dc107a176b2148fd3223a38}{User}} (string \&, string \&)
+\begin{DoxyCompactList}\small\item\em Constructor de clase \mbox{\hyperlink{classUser}{User}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classUser_ac00b72ad64eb4149f7b21b9f5468c2b2}{$\sim$\+User}} ()
+\begin{DoxyCompactList}\small\item\em Destructor de clase \mbox{\hyperlink{classUser}{User}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUser_a49f4f0fa7c90dcab58562ca6752152cb}{set\+Nif}} (string \&)
+\begin{DoxyCompactList}\small\item\em Establece el NIF del usuario. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classUser_a30eaf4ba417d880393f92f87cde4ccaf}{get\+Nif}} ()
+\begin{DoxyCompactList}\small\item\em Regresa el Nif del usuario. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUser_a0971a873bf52ecc5369177fc650556ca}{setname}} (string \&)
+\begin{DoxyCompactList}\small\item\em Estable el nombre del usuario. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classUser_ab9b3ebc3ac8f7765563c174bbcc5b83e}{getname}} ()
+\begin{DoxyCompactList}\small\item\em Regresa el nombre del usuario. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUser_aae4ce9bc118c22d682b44403e1d0f221}{verify\+Nif}} (bool)
+\begin{DoxyCompactList}\small\item\em Verifica si el NIF introducido es permitido. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUser_adb5f56bef04b321e73936de4775eb827}{verify\+User}} (bool)
+\begin{DoxyCompactList}\small\item\em Verifica si el numero de usuario introducido es permitido. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUser_a2ce1d13d4e4c3e2a5d3f88a8df45792b}{authenticate\+User}} ()
+\begin{DoxyCompactList}\small\item\em Verifica si el NIF y el name son validos. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUser_a8d96bd13611bcfa704d2ee3e3198f3f5}{operator$<$}} (\mbox{\hyperlink{classUser}{User}} \&)
+\begin{DoxyCompactList}\small\item\em Sobrecarga del \mbox{\hyperlink{classUser}{User}} para comparar usuarios. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUser_ae86203c5feed8b6432a230fffcc72bed}{escribir}} (string, string)
+\begin{DoxyCompactList}\small\item\em Escribe el fichero de Usuarios. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUser_aacf2b0582c290c7fdfce771dc400f278}{leer}} ()
+\begin{DoxyCompactList}\small\item\em Lee el fichero de Usuarios. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classUser_abbc1f34c1ea6000c2e291014ec53458c}{validate}}
+\item 
+string \mbox{\hyperlink{classUser_a643f85779a4693855c171c396f49e515}{name}}
+\item 
+string \mbox{\hyperlink{classUser_ac3d1770b4a571a9a5c29ac0d525a80f1}{nif}}
+\item 
+set$<$ pair$<$ string, string $>$ $>$ \mbox{\hyperlink{classUser_a87302b80efe3b11408aa51873cf64cb7}{User\+Data}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{classUser_a55bce33153fc44b0607a093433343e0e}{operator$<$$<$}} (ostream \&, \mbox{\hyperlink{classUser}{User}} \&)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Declaracion de clase \mbox{\hyperlink{classUser}{User}}. 
+
+Definition at line 45 of file User.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classUser_a01533a724dc107a176b2148fd3223a38}\label{classUser_a01533a724dc107a176b2148fd3223a38}} 
+\index{User@{User}!User@{User}}
+\index{User@{User}!User@{User}}
+\doxysubsubsection{\texorpdfstring{User()}{User()}}
+{\footnotesize\ttfamily User\+::\+User (\begin{DoxyParamCaption}\item[{string \&}]{name,  }\item[{string \&}]{nif }\end{DoxyParamCaption})}
+
+
+
+Constructor de clase \mbox{\hyperlink{classUser}{User}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Strings} & del Nombre y Nif del usuario \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 14 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{14                                    \{}
+\DoxyCodeLine{15     }
+\DoxyCodeLine{16     \mbox{\hyperlink{classUser_a49f4f0fa7c90dcab58562ca6752152cb}{setNif}}(\mbox{\hyperlink{classUser_ac3d1770b4a571a9a5c29ac0d525a80f1}{nif}});}
+\DoxyCodeLine{17     \mbox{\hyperlink{classUser_a0971a873bf52ecc5369177fc650556ca}{setname}}(\mbox{\hyperlink{classUser_a643f85779a4693855c171c396f49e515}{name}});}
+\DoxyCodeLine{18 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classUser_ac00b72ad64eb4149f7b21b9f5468c2b2}\label{classUser_ac00b72ad64eb4149f7b21b9f5468c2b2}} 
+\index{User@{User}!````~User@{$\sim$User}}
+\index{````~User@{$\sim$User}!User@{User}}
+\doxysubsubsection{\texorpdfstring{$\sim$User()}{~User()}}
+{\footnotesize\ttfamily User\+::$\sim$\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor de clase \mbox{\hyperlink{classUser}{User}}. 
+
+
+
+Definition at line 21 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{21 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUser_a2ce1d13d4e4c3e2a5d3f88a8df45792b}\label{classUser_a2ce1d13d4e4c3e2a5d3f88a8df45792b}} 
+\index{User@{User}!authenticateUser@{authenticateUser}}
+\index{authenticateUser@{authenticateUser}!User@{User}}
+\doxysubsubsection{\texorpdfstring{authenticateUser()}{authenticateUser()}}
+{\footnotesize\ttfamily bool User\+::authenticate\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifica si el NIF y el name son validos. 
+
+\begin{DoxyReturn}{Returns}
+permiso para proseguir a la interface o no 
+\end{DoxyReturn}
+
+
+Definition at line 58 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{58                            \{}
+\DoxyCodeLine{59     \textcolor{keywordtype}{bool} \mbox{\hyperlink{classUser_abbc1f34c1ea6000c2e291014ec53458c}{validate}} = \textcolor{keyword}{false};}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{61 \textcolor{comment}{//-\/-\/-\/-\/-\/MODIFICACION: EXCEPCIONES-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{62     \textcolor{keywordflow}{try}\{}
+\DoxyCodeLine{63         \textcolor{keywordflow}{if}(\mbox{\hyperlink{classUser_a87302b80efe3b11408aa51873cf64cb7}{UserData}}.find(\{name,nif\}) == \mbox{\hyperlink{classUser_a87302b80efe3b11408aa51873cf64cb7}{UserData}}.end())\{}
+\DoxyCodeLine{64             \textcolor{keywordflow}{throw} \mbox{\hyperlink{classInvalidUserException}{InvalidUserException}}();}
+\DoxyCodeLine{65         \}}
+\DoxyCodeLine{66         std::cout << \textcolor{stringliteral}{"{}\(\backslash\)nVALID USER"{}} << endl;}
+\DoxyCodeLine{67         std::cout << \textcolor{stringliteral}{"{}Loading..."{}} << endl << endl;}
+\DoxyCodeLine{68         sleep(2);}
+\DoxyCodeLine{69         system(\textcolor{stringliteral}{"{}clear"{}});}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71         \mbox{\hyperlink{classUser_abbc1f34c1ea6000c2e291014ec53458c}{validate}} = \textcolor{keyword}{true};}
+\DoxyCodeLine{72         \textcolor{keyword}{auto} date = chrono::system\_clock::now();}
+\DoxyCodeLine{73         time\_t actual\_time = chrono::system\_clock::to\_time\_t(date);}
+\DoxyCodeLine{74         std::cout << \textcolor{stringliteral}{"{}Accessed time: "{}} << ctime(\&actual\_time);}
+\DoxyCodeLine{75         \textcolor{keywordflow}{return} \mbox{\hyperlink{classUser_abbc1f34c1ea6000c2e291014ec53458c}{validate}};}
+\DoxyCodeLine{76     \}}
+\DoxyCodeLine{77     \textcolor{keywordflow}{catch}(\mbox{\hyperlink{classInvalidUserException}{InvalidUserException}}\& e)\{}
+\DoxyCodeLine{78         std::cout << endl << \textcolor{stringliteral}{"{}The USER:"{}} << \mbox{\hyperlink{classUser_a643f85779a4693855c171c396f49e515}{name}} << \textcolor{stringliteral}{"{} IS NOT VALID"{}} << endl;}
+\DoxyCodeLine{79         \mbox{\hyperlink{classUser_abbc1f34c1ea6000c2e291014ec53458c}{validate}} = \textcolor{keyword}{false};}
+\DoxyCodeLine{80         std::cout << \textcolor{stringliteral}{"{}The NIF:"{}} << \mbox{\hyperlink{classUser_ac3d1770b4a571a9a5c29ac0d525a80f1}{nif}} << \textcolor{stringliteral}{"{} DOESN'T EXIST"{}} << endl << endl;}
+\DoxyCodeLine{81         \mbox{\hyperlink{classUser_abbc1f34c1ea6000c2e291014ec53458c}{validate}} = \textcolor{keyword}{false};}
+\DoxyCodeLine{82         sleep(2);}
+\DoxyCodeLine{83         \textcolor{keywordflow}{throw} system(\textcolor{stringliteral}{"{}./main"{}});}
+\DoxyCodeLine{84         }
+\DoxyCodeLine{85     \}}
+\DoxyCodeLine{86     \textcolor{keywordflow}{return} \mbox{\hyperlink{classUser_abbc1f34c1ea6000c2e291014ec53458c}{validate}};}
+\DoxyCodeLine{87 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{classUser_a2ce1d13d4e4c3e2a5d3f88a8df45792b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_ae86203c5feed8b6432a230fffcc72bed}\label{classUser_ae86203c5feed8b6432a230fffcc72bed}} 
+\index{User@{User}!escribir@{escribir}}
+\index{escribir@{escribir}!User@{User}}
+\doxysubsubsection{\texorpdfstring{escribir()}{escribir()}}
+{\footnotesize\ttfamily void User\+::escribir (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{string}]{nif }\end{DoxyParamCaption})}
+
+
+
+Escribe el fichero de Usuarios. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em String} & de name y nif del usuario \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Fichero users.\+dat 
+\end{DoxyReturn}
+
+
+Definition at line 118 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{118                                           \{}
+\DoxyCodeLine{119     ofstream fichero;}
+\DoxyCodeLine{120     fichero.open(\textcolor{stringliteral}{"{}users.dat"{}}, ios::app); \textcolor{comment}{//Abrir el archivo en modo escritura}}
+\DoxyCodeLine{121     }
+\DoxyCodeLine{122     \textcolor{keywordflow}{if} (fichero.fail())\{}
+\DoxyCodeLine{123         cout<<\textcolor{stringliteral}{"{}Wasn't possible to open file..."{}};}
+\DoxyCodeLine{124         exit(1);}
+\DoxyCodeLine{125     \}}
+\DoxyCodeLine{126     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classUser_a87302b80efe3b11408aa51873cf64cb7}{UserData}}.find(\{name,nif\}) == \mbox{\hyperlink{classUser_a87302b80efe3b11408aa51873cf64cb7}{UserData}}.end())\{}
+\DoxyCodeLine{127         cout << \textcolor{stringliteral}{"{}New Registration Done Correctly!!"{}}<< endl;}
+\DoxyCodeLine{128         fichero<< \textcolor{stringliteral}{"{}Name "{}} << \mbox{\hyperlink{classUser_a643f85779a4693855c171c396f49e515}{name}} << \textcolor{stringliteral}{"{} Nif "{}} << \mbox{\hyperlink{classUser_ac3d1770b4a571a9a5c29ac0d525a80f1}{nif}} << endl;}
+\DoxyCodeLine{129         fichero.close();}
+\DoxyCodeLine{130     \}}
+\DoxyCodeLine{131     \textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{132         cout << \textcolor{stringliteral}{"{}Name or NIF already exist"{}} << endl;}
+\DoxyCodeLine{133     \}}
+\DoxyCodeLine{134 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{classUser_ae86203c5feed8b6432a230fffcc72bed_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_ab9b3ebc3ac8f7765563c174bbcc5b83e}\label{classUser_ab9b3ebc3ac8f7765563c174bbcc5b83e}} 
+\index{User@{User}!getname@{getname}}
+\index{getname@{getname}!User@{User}}
+\doxysubsubsection{\texorpdfstring{getname()}{getname()}}
+{\footnotesize\ttfamily string User\+::getname (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Regresa el nombre del usuario. 
+
+\begin{DoxyReturn}{Returns}
+string del nombre 
+\end{DoxyReturn}
+
+
+Definition at line 39 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{39                     \{}
+\DoxyCodeLine{40     \textcolor{keywordflow}{return} \mbox{\hyperlink{classUser_a643f85779a4693855c171c396f49e515}{name}};}
+\DoxyCodeLine{41 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classUser_a30eaf4ba417d880393f92f87cde4ccaf}\label{classUser_a30eaf4ba417d880393f92f87cde4ccaf}} 
+\index{User@{User}!getNif@{getNif}}
+\index{getNif@{getNif}!User@{User}}
+\doxysubsubsection{\texorpdfstring{getNif()}{getNif()}}
+{\footnotesize\ttfamily string User\+::get\+Nif (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Regresa el Nif del usuario. 
+
+\begin{DoxyReturn}{Returns}
+String del NIF 
+\end{DoxyReturn}
+
+
+Definition at line 29 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{29                    \{}
+\DoxyCodeLine{30     \textcolor{keywordflow}{return} \mbox{\hyperlink{classUser_ac3d1770b4a571a9a5c29ac0d525a80f1}{nif}};}
+\DoxyCodeLine{31 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classUser_aacf2b0582c290c7fdfce771dc400f278}\label{classUser_aacf2b0582c290c7fdfce771dc400f278}} 
+\index{User@{User}!leer@{leer}}
+\index{leer@{leer}!User@{User}}
+\doxysubsubsection{\texorpdfstring{leer()}{leer()}}
+{\footnotesize\ttfamily void User\+::leer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Lee el fichero de Usuarios. 
+
+\begin{DoxyReturn}{Returns}
+Lectura del fichero users.\+dat 
+\end{DoxyReturn}
+
+
+Definition at line 90 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{90                \{}
+\DoxyCodeLine{91     ifstream fichero;}
+\DoxyCodeLine{92     \textcolor{keywordtype}{string} texto;}
+\DoxyCodeLine{93     fichero.open(\textcolor{stringliteral}{"{}users.dat"{}}, ios::in); \textcolor{comment}{//Abrir el archivo en modo escritura}}
+\DoxyCodeLine{94     }
+\DoxyCodeLine{95     \textcolor{keywordflow}{if} (fichero.fail())\{}
+\DoxyCodeLine{96         cout<<\textcolor{stringliteral}{"{}Wasn't possible to open file..."{}};}
+\DoxyCodeLine{97         exit(1);}
+\DoxyCodeLine{98     \}}
+\DoxyCodeLine{99     \textcolor{keywordflow}{while}(!fichero.eof())\{}
+\DoxyCodeLine{100         getline(fichero,texto);}
+\DoxyCodeLine{101         \textcolor{keywordtype}{char} delimeter = \textcolor{charliteral}{' '};}
+\DoxyCodeLine{102 }
+\DoxyCodeLine{103         std::vector<std::string> tokens;}
+\DoxyCodeLine{104         std::string token;}
+\DoxyCodeLine{105         std::istringstream tokenStream(texto);}
+\DoxyCodeLine{106         \textcolor{keywordflow}{while} (getline(tokenStream, token, delimeter))}
+\DoxyCodeLine{107         \{}
+\DoxyCodeLine{108             tokens.push\_back(token);}
+\DoxyCodeLine{109         \}}
+\DoxyCodeLine{110         \textcolor{keywordflow}{if}(tokens.size() > 3)\{}
+\DoxyCodeLine{111             \mbox{\hyperlink{classUser_a87302b80efe3b11408aa51873cf64cb7}{UserData}}.insert(\{tokens.at(1),tokens.at(3)\});}
+\DoxyCodeLine{112         \}}
+\DoxyCodeLine{113     \}}
+\DoxyCodeLine{114     fichero.close();}
+\DoxyCodeLine{115 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=221pt]{classUser_aacf2b0582c290c7fdfce771dc400f278_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_a8d96bd13611bcfa704d2ee3e3198f3f5}\label{classUser_a8d96bd13611bcfa704d2ee3e3198f3f5}} 
+\index{User@{User}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!User@{User}}
+\doxysubsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily bool User\+::operator$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classUser}{User}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Sobrecarga del \mbox{\hyperlink{classUser}{User}} para comparar usuarios. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Usuario} & a comparar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 138 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{138                                \{}
+\DoxyCodeLine{139     \textcolor{keywordflow}{return}(\textcolor{keyword}{this} -\/> \mbox{\hyperlink{classUser_a643f85779a4693855c171c396f49e515}{name}} > other.\mbox{\hyperlink{classUser_a643f85779a4693855c171c396f49e515}{name}});}
+\DoxyCodeLine{140 \}}
+
+\end{DoxyCode}
+
+
+References name.
+
+\mbox{\Hypertarget{classUser_a0971a873bf52ecc5369177fc650556ca}\label{classUser_a0971a873bf52ecc5369177fc650556ca}} 
+\index{User@{User}!setname@{setname}}
+\index{setname@{setname}!User@{User}}
+\doxysubsubsection{\texorpdfstring{setname()}{setname()}}
+{\footnotesize\ttfamily void User\+::setname (\begin{DoxyParamCaption}\item[{string \&}]{name }\end{DoxyParamCaption})}
+
+
+
+Estable el nombre del usuario. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em String} & \& del nombre \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 34 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{34                               \{}
+\DoxyCodeLine{35     \textcolor{keyword}{this} -\/> \mbox{\hyperlink{classUser_a643f85779a4693855c171c396f49e515}{name}} = \mbox{\hyperlink{classUser_a643f85779a4693855c171c396f49e515}{name}};}
+\DoxyCodeLine{36 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classUser_a49f4f0fa7c90dcab58562ca6752152cb}\label{classUser_a49f4f0fa7c90dcab58562ca6752152cb}} 
+\index{User@{User}!setNif@{setNif}}
+\index{setNif@{setNif}!User@{User}}
+\doxysubsubsection{\texorpdfstring{setNif()}{setNif()}}
+{\footnotesize\ttfamily void User\+::set\+Nif (\begin{DoxyParamCaption}\item[{string \&}]{nif }\end{DoxyParamCaption})}
+
+
+
+Establece el NIF del usuario. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em String} & \& del NIF \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 24 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{24                             \{}
+\DoxyCodeLine{25     \textcolor{keyword}{this} -\/> \mbox{\hyperlink{classUser_ac3d1770b4a571a9a5c29ac0d525a80f1}{nif}} = \mbox{\hyperlink{classUser_ac3d1770b4a571a9a5c29ac0d525a80f1}{nif}};}
+\DoxyCodeLine{26 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classUser_aae4ce9bc118c22d682b44403e1d0f221}\label{classUser_aae4ce9bc118c22d682b44403e1d0f221}} 
+\index{User@{User}!verifyNif@{verifyNif}}
+\index{verifyNif@{verifyNif}!User@{User}}
+\doxysubsubsection{\texorpdfstring{verifyNif()}{verifyNif()}}
+{\footnotesize\ttfamily void User\+::verify\+Nif (\begin{DoxyParamCaption}\item[{bool}]{validate }\end{DoxyParamCaption})}
+
+
+
+Verifica si el NIF introducido es permitido. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bool} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Da la bienvenida al usuario o indica que no es correcto 
+\end{DoxyReturn}
+
+
+Definition at line 44 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{44                                  \{}
+\DoxyCodeLine{45     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classUser_abbc1f34c1ea6000c2e291014ec53458c}{validate}} == \textcolor{keyword}{true})\{}
+\DoxyCodeLine{46         std::cout << \textcolor{stringliteral}{"{}Employee with NIF: "{}} << \mbox{\hyperlink{classUser_ac3d1770b4a571a9a5c29ac0d525a80f1}{nif}} << endl;}
+\DoxyCodeLine{47     \}}
+\DoxyCodeLine{48 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{classUser_aae4ce9bc118c22d682b44403e1d0f221_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUser_adb5f56bef04b321e73936de4775eb827}\label{classUser_adb5f56bef04b321e73936de4775eb827}} 
+\index{User@{User}!verifyUser@{verifyUser}}
+\index{verifyUser@{verifyUser}!User@{User}}
+\doxysubsubsection{\texorpdfstring{verifyUser()}{verifyUser()}}
+{\footnotesize\ttfamily void User\+::verify\+User (\begin{DoxyParamCaption}\item[{bool}]{validate }\end{DoxyParamCaption})}
+
+
+
+Verifica si el numero de usuario introducido es permitido. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bool} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Da la bienvenida al usuario o indica que no es correcto 
+\end{DoxyReturn}
+
+
+Definition at line 51 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{51                                   \{}
+\DoxyCodeLine{52     \textcolor{keywordflow}{if}(\mbox{\hyperlink{classUser_abbc1f34c1ea6000c2e291014ec53458c}{validate}} == \textcolor{keyword}{true})\{}
+\DoxyCodeLine{53         std::cout << \textcolor{stringliteral}{"{}Welcome User: "{}} << \mbox{\hyperlink{classUser_a643f85779a4693855c171c396f49e515}{name}} << endl;}
+\DoxyCodeLine{54     \}}
+\DoxyCodeLine{55 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{classUser_adb5f56bef04b321e73936de4775eb827_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classUser_a55bce33153fc44b0607a093433343e0e}\label{classUser_a55bce33153fc44b0607a093433343e0e}} 
+\index{User@{User}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!User@{User}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{output,  }\item[{\mbox{\hyperlink{classUser}{User}} \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 142 of file User.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{142                                              \{}
+\DoxyCodeLine{143     cout << \textcolor{stringliteral}{"{}[User's Name: "{}} << a.\mbox{\hyperlink{classUser_ab9b3ebc3ac8f7765563c174bbcc5b83e}{getname}}() << \textcolor{stringliteral}{"{}-\/-\/ User's NIF: "{}} << a.\mbox{\hyperlink{classUser_a30eaf4ba417d880393f92f87cde4ccaf}{getNif}}() << \textcolor{stringliteral}{"{}]"{}} << endl;}
+\DoxyCodeLine{144     \textcolor{keywordflow}{return} output;}
+\DoxyCodeLine{145 \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classUser_a643f85779a4693855c171c396f49e515}\label{classUser_a643f85779a4693855c171c396f49e515}} 
+\index{User@{User}!name@{name}}
+\index{name@{name}!User@{User}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily string User\+::name\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 117 of file User.\+h.
+
+
+
+Referenced by operator$<$().
+
+\mbox{\Hypertarget{classUser_ac3d1770b4a571a9a5c29ac0d525a80f1}\label{classUser_ac3d1770b4a571a9a5c29ac0d525a80f1}} 
+\index{User@{User}!nif@{nif}}
+\index{nif@{nif}!User@{User}}
+\doxysubsubsection{\texorpdfstring{nif}{nif}}
+{\footnotesize\ttfamily string User\+::nif\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 118 of file User.\+h.
+
+\mbox{\Hypertarget{classUser_a87302b80efe3b11408aa51873cf64cb7}\label{classUser_a87302b80efe3b11408aa51873cf64cb7}} 
+\index{User@{User}!UserData@{UserData}}
+\index{UserData@{UserData}!User@{User}}
+\doxysubsubsection{\texorpdfstring{UserData}{UserData}}
+{\footnotesize\ttfamily set$<$pair$<$string,string$>$ $>$ User\+::\+User\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 119 of file User.\+h.
+
+\mbox{\Hypertarget{classUser_abbc1f34c1ea6000c2e291014ec53458c}\label{classUser_abbc1f34c1ea6000c2e291014ec53458c}} 
+\index{User@{User}!validate@{validate}}
+\index{validate@{validate}!User@{User}}
+\doxysubsubsection{\texorpdfstring{validate}{validate}}
+{\footnotesize\ttfamily bool User\+::validate\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 116 of file User.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{User_8h}{User.\+h}}\item 
+\mbox{\hyperlink{User_8cpp}{User.\+cpp}}\end{DoxyCompactItemize}

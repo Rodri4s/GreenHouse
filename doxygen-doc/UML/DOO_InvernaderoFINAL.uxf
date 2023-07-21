@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>230</y>
+      <w>95</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Dashboard
+--
+#Dashboard()
+#~Dashboard()
+#exit(): void
+#showMenu(): int
+#selection(int): void
+--
+-timestamp: float
+-action: int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>575</x>
+      <y>285</y>
+      <w>105</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Sensors
+--
+#Sensor()
+#~Sensor()
+#readSensorVal(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>575</x>
+      <y>235</y>
+      <w>105</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Camera
+--
+#Camera()
+#~Camera()
+#readCameraVal(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>140</y>
+      <w>115</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Thermic
+--
+#Thermic()
+#~Thermic()
+#readThermic(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>140</y>
+      <w>105</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>RGB
+--
+#RGB()
+#~RGB()
+#readRGB(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>450</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Humidity
+--
+#Humidity()
+#~Humidity()
+#readHumidity(): void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>495</x>
+      <y>450</y>
+      <w>75</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>AirQ
+--
+#AirQ()
+#~AirQ()
+#readAirQ(): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>390</y>
+      <w>80</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Temperature
+--
+#Temperature()
+#~Temperature()
+#readTemp(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>390</y>
+      <w>105</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>IlluminationLv
+--
+#IlluminationLv()
+#~IlluminationLv()
+#readIlluminationLv(): void
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>265</y>
+      <w>70</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>565</x>
+      <y>325</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;80.0;180.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>565</x>
+      <y>325</y>
+      <w>60</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;100.0;300.0;10.0;300.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>645</x>
+      <y>325</y>
+      <w>45</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0;70.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>635</x>
+      <y>325</y>
+      <w>55</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;300.0;90.0;300.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>180</y>
+      <w>85</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;110.0;150.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>635</x>
+      <y>180</y>
+      <w>90</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;80.0;160.0;80.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>200</y>
+      <w>145</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>User
+--
+#User(string&amp;: string&amp;)
+#~User()
+#setNif(string &amp;): void
+#getNif(): string
+#setName(string &amp;): void
+#getName(): string
+#verifyNif(bool): void
+#verifyUser(bool): void
+#authenticateUser(): bool 
+#operator&lt;(User &amp;): bool
+#escribir(string, string): void
+#leer(): void
+--
+-validate: bool
+-nume: string
+-nif: string
+-UserData: set&lt;pair&lt;string,string&gt;&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>715</x>
+      <y>265</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Flechas
+--
+Inheritance lt=&lt;&lt;-
+Association lt=-
+Aggregation lt=&lt;&lt;&lt;&lt;-
+Composition lt=&lt;&lt;&lt;&lt;&lt;-
+
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>255</y>
+      <w>105</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>190.0;10.0;130.0;10.0;130.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>270</y>
+      <w>105</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>190.0;70.0;130.0;70.0;130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>185</x>
+      <y>395</y>
+      <w>155</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>InvalidUserException
+--
+#virtual const char* what() const throw()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>345</y>
+      <w>15</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+</diagram>

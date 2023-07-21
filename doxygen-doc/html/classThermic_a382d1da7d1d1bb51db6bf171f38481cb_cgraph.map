@@ -1,0 +1,4 @@
+<map id="Thermic::readThermic" name="Thermic::readThermic">
+<area shape="rect" id="node1" title="Lectura de camaras Termicas." alt="" coords="5,5,171,32"/>
+<area shape="rect" id="node2" href="$classCamera.html#adfdb4edcb22c42b2f282f83d00058a32" title="Lectura de datos Camera." alt="" coords="219,5,400,32"/>
+</map>

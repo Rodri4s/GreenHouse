@@ -1,0 +1,146 @@
+\hypertarget{classTemperature}{}\doxysection{Temperature Class Reference}
+\label{classTemperature}\index{Temperature@{Temperature}}
+
+
+Declaracion de clase \mbox{\hyperlink{classTemperature}{Temperature}} hija de \mbox{\hyperlink{classSensor}{Sensor}}.  
+
+
+
+
+{\ttfamily \#include $<$Temperature.\+h$>$}
+
+
+
+Inheritance diagram for Temperature\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=185pt]{classTemperature__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Temperature\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=185pt]{classTemperature__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTemperature_ab8f4f9e793a8e4f35eed33c240bbe278}{Temperature}} ()
+\begin{DoxyCompactList}\small\item\em Constructor de clase \mbox{\hyperlink{classTemperature}{Temperature}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classTemperature_aca72d496e462fe63753b3aee1b8c315e}{$\sim$\+Temperature}} ()
+\begin{DoxyCompactList}\small\item\em Destructor de clase \mbox{\hyperlink{classTemperature}{Temperature}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTemperature_af8a536644a9cfc807424aa64f548e979}{read\+Temp}} ()
+\begin{DoxyCompactList}\small\item\em Lectura de \mbox{\hyperlink{classTemperature}{Temperature}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Declaracion de clase \mbox{\hyperlink{classTemperature}{Temperature}} hija de \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+Definition at line 23 of file Temperature.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTemperature_ab8f4f9e793a8e4f35eed33c240bbe278}\label{classTemperature_ab8f4f9e793a8e4f35eed33c240bbe278}} 
+\index{Temperature@{Temperature}!Temperature@{Temperature}}
+\index{Temperature@{Temperature}!Temperature@{Temperature}}
+\doxysubsubsection{\texorpdfstring{Temperature()}{Temperature()}}
+{\footnotesize\ttfamily Temperature\+::\+Temperature (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor de clase \mbox{\hyperlink{classTemperature}{Temperature}}. 
+
+
+
+Definition at line 5 of file Temperature.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{5 \{\}                \textcolor{comment}{//Constructor}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classTemperature_aca72d496e462fe63753b3aee1b8c315e}\label{classTemperature_aca72d496e462fe63753b3aee1b8c315e}} 
+\index{Temperature@{Temperature}!````~Temperature@{$\sim$Temperature}}
+\index{````~Temperature@{$\sim$Temperature}!Temperature@{Temperature}}
+\doxysubsubsection{\texorpdfstring{$\sim$Temperature()}{~Temperature()}}
+{\footnotesize\ttfamily Temperature\+::$\sim$\+Temperature (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor de clase \mbox{\hyperlink{classTemperature}{Temperature}}. 
+
+
+
+Definition at line 6 of file Temperature.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{6 \{\}               \textcolor{comment}{//Destructor}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTemperature_af8a536644a9cfc807424aa64f548e979}\label{classTemperature_af8a536644a9cfc807424aa64f548e979}} 
+\index{Temperature@{Temperature}!readTemp@{readTemp}}
+\index{readTemp@{readTemp}!Temperature@{Temperature}}
+\doxysubsubsection{\texorpdfstring{readTemp()}{readTemp()}}
+{\footnotesize\ttfamily void Temperature\+::read\+Temp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Lectura de \mbox{\hyperlink{classTemperature}{Temperature}}. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 9 of file Temperature.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{9                           \{}
+\DoxyCodeLine{10     \mbox{\hyperlink{classSensor_a539251b81919773d9255b39e25b1e936}{readSensorVal}}();}
+\DoxyCodeLine{11     std::cout << \textcolor{stringliteral}{"{}The temperature is of 28 °C"{}} << std::endl;}
+\DoxyCodeLine{12 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::read\+Sensor\+Val().
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTemperature_af8a536644a9cfc807424aa64f548e979_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=289pt]{classTemperature_af8a536644a9cfc807424aa64f548e979_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Temperature_8h}{Temperature.\+h}}\item 
+\mbox{\hyperlink{Temperature_8cpp}{Temperature.\+cpp}}\end{DoxyCompactItemize}

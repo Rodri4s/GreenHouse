@@ -1,0 +1,4 @@
+<map id="Humidity::readHumidity" name="Humidity::readHumidity">
+<area shape="rect" id="node1" title="Lectura de Humedad." alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node2" href="$classSensor.html#a539251b81919773d9255b39e25b1e936" title="Lectura de datos de Sensores." alt="" coords="232,5,399,32"/>
+</map>

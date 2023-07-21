@@ -1,0 +1,72 @@
+\hypertarget{InvalidUserExcepcion_8h}{}\doxysection{Invalid\+User\+Excepcion.\+h File Reference}
+\label{InvalidUserExcepcion_8h}\index{InvalidUserExcepcion.h@{InvalidUserExcepcion.h}}
+
+
+Detecta una excepcion tipo Usuario Invalido.  
+
+
+{\ttfamily \#include $<$exception$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for Invalid\+User\+Excepcion.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{InvalidUserExcepcion_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=211pt]{InvalidUserExcepcion_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classInvalidUserException}{Invalid\+User\+Exception}}
+\begin{DoxyCompactList}\small\item\em Declaracion de clase \mbox{\hyperlink{classInvalidUserException}{Invalid\+User\+Exception}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Detecta una excepcion tipo Usuario Invalido. 
+
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+21/12/2022 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Rodrigo Rodas Barrera @title Detector de Excepciones 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordflow}{try}\{}
+\DoxyCodeLine{    \textcolor{keywordflow}{if}(UserData.find(\{name,nif\}) == UserData.end())\{}
+\DoxyCodeLine{        \textcolor{keywordflow}{throw} \mbox{\hyperlink{classInvalidUserException}{InvalidUserException}}();}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{    std::cout << \textcolor{stringliteral}{"{}\(\backslash\)nVALID USER"{}} << endl;}
+\DoxyCodeLine{    std::cout << \textcolor{stringliteral}{"{}Loading..."{}} << endl << endl;}
+\DoxyCodeLine{    sleep(2);}
+\DoxyCodeLine{    system(\textcolor{stringliteral}{"{}clear"{}});}
+\DoxyCodeLine{}
+\DoxyCodeLine{    validate = \textcolor{keyword}{true};}
+\DoxyCodeLine{    \textcolor{keyword}{auto} date = chrono::system\_clock::now();}
+\DoxyCodeLine{    time\_t actual\_time = chrono::system\_clock::to\_time\_t(date);}
+\DoxyCodeLine{    std::cout << \textcolor{stringliteral}{"{}Accessed time: "{}} << ctime(\&actual\_time);}
+\DoxyCodeLine{    \textcolor{keywordflow}{return} validate;}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{\textcolor{keywordflow}{catch}(\mbox{\hyperlink{classInvalidUserException}{InvalidUserException}}\& e)\{}
+\DoxyCodeLine{    std::cout << endl << \textcolor{stringliteral}{"{}The USER:"{}} << name << \textcolor{stringliteral}{"{} IS NOT VALID"{}} << endl;}
+\DoxyCodeLine{    validate = \textcolor{keyword}{false};}
+\DoxyCodeLine{    std::cout << \textcolor{stringliteral}{"{}The NIF:"{}} << nif << \textcolor{stringliteral}{"{} DOESN'T EXIST"{}} << endl << endl;}
+\DoxyCodeLine{    validate = \textcolor{keyword}{false};}
+\DoxyCodeLine{    sleep(2);}
+\DoxyCodeLine{    \textcolor{keywordflow}{throw} system(\textcolor{stringliteral}{"{}./main"{}});}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{\textcolor{keywordflow}{return} validate;}
+
+\end{DoxyCode}
+ 
+\end{DoxyAuthor}

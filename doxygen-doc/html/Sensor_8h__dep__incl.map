@@ -1,0 +1,14 @@
+<map id="Sensor.h" name="Sensor.h">
+<area shape="rect" id="node1" title="Genera el padre Sensor." alt="" coords="408,5,485,32"/>
+<area shape="rect" id="node2" href="$AirQ_8cpp.html" title=" " alt="" coords="5,155,83,181"/>
+<area shape="rect" id="node3" href="$AirQ_8h.html" title="Herencia Sensor y AirQ." alt="" coords="81,80,143,107"/>
+<area shape="rect" id="node4" href="$Dashboard_8cpp.html" title=" " alt="" coords="262,155,381,181"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title=" " alt="" coords="404,155,487,181"/>
+<area shape="rect" id="node6" href="$Humidity_8cpp.html" title=" " alt="" coords="525,155,632,181"/>
+<area shape="rect" id="node7" href="$Humidity_8h.html" title="Herencia Sensor y Humidity." alt="" coords="359,80,451,107"/>
+<area shape="rect" id="node8" href="$IlluminationLv_8cpp.html" title=" " alt="" coords="664,155,805,181"/>
+<area shape="rect" id="node9" href="$IlluminationLv_8h.html" title="Herencia Sensor y IlluminationLv." alt="" coords="527,80,654,107"/>
+<area shape="rect" id="node10" href="$Sensor_8cpp.html" title=" " alt="" coords="781,80,873,107"/>
+<area shape="rect" id="node11" href="$Temperature_8h.html" title="Herencia Sensor y Temperature." alt="" coords="167,80,283,107"/>
+<area shape="rect" id="node12" href="$Temperature_8cpp.html" title=" " alt="" coords="107,155,237,181"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Camera.h" name="Camera.h">
+<area shape="rect" id="node1" title="Genera el padre Camera." alt="" coords="239,5,325,32"/>
+<area shape="rect" id="node2" href="$Camera_8cpp.html" title=" " alt="" coords="5,80,105,107"/>
+<area shape="rect" id="node3" href="$Dashboard_8cpp.html" title=" " alt="" coords="97,155,216,181"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title=" " alt="" coords="239,155,322,181"/>
+<area shape="rect" id="node5" href="$RGB_8cpp.html" title=" " alt="" coords="346,155,423,181"/>
+<area shape="rect" id="node6" href="$RGB_8h.html" title="Herencia Camera y RGB." alt="" coords="181,80,244,107"/>
+<area shape="rect" id="node7" href="$Thermic_8cpp.html" title=" " alt="" coords="448,155,551,181"/>
+<area shape="rect" id="node8" href="$Thermic_8h.html" title=" " alt="" coords="320,80,407,107"/>
+</map>

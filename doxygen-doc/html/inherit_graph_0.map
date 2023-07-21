@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classCamera.html" title="Declaracion de la clase padre Camera." alt="" coords="5,31,79,57"/>
+<area shape="rect" id="node2" href="$classRGB.html" title="Declaracion de la clase RGB hija de Camera." alt="" coords="139,5,189,32"/>
+<area shape="rect" id="node3" href="$classThermic.html" title="Declaracion de clase Thermic hija de Camera." alt="" coords="127,56,201,83"/>
+</map>

@@ -1,0 +1,146 @@
+\hypertarget{classHumidity}{}\doxysection{Humidity Class Reference}
+\label{classHumidity}\index{Humidity@{Humidity}}
+
+
+Declaracion de la clase \mbox{\hyperlink{classHumidity}{Humidity}} hija de \mbox{\hyperlink{classSensor}{Sensor}}.  
+
+
+
+
+{\ttfamily \#include $<$Humidity.\+h$>$}
+
+
+
+Inheritance diagram for Humidity\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=185pt]{classHumidity__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Humidity\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=185pt]{classHumidity__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHumidity_a6c621a13ea4b2c5c5745ede870f762a5}{Humidity}} ()
+\begin{DoxyCompactList}\small\item\em Constructor de clase \mbox{\hyperlink{classHumidity}{Humidity}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHumidity_ac8b78adca20d17cb7ccd62071239dc6f}{$\sim$\+Humidity}} ()
+\begin{DoxyCompactList}\small\item\em Destructor de clase \mbox{\hyperlink{classHumidity}{Humidity}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHumidity_aac879fb7bc5555ae53542b6808bc3991}{read\+Humidity}} ()
+\begin{DoxyCompactList}\small\item\em Lectura de Humedad. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Declaracion de la clase \mbox{\hyperlink{classHumidity}{Humidity}} hija de \mbox{\hyperlink{classSensor}{Sensor}}. 
+
+Definition at line 23 of file Humidity.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classHumidity_a6c621a13ea4b2c5c5745ede870f762a5}\label{classHumidity_a6c621a13ea4b2c5c5745ede870f762a5}} 
+\index{Humidity@{Humidity}!Humidity@{Humidity}}
+\index{Humidity@{Humidity}!Humidity@{Humidity}}
+\doxysubsubsection{\texorpdfstring{Humidity()}{Humidity()}}
+{\footnotesize\ttfamily Humidity\+::\+Humidity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor de clase \mbox{\hyperlink{classHumidity}{Humidity}}. 
+
+
+
+Definition at line 5 of file Humidity.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{5 \{\}                \textcolor{comment}{//Constructor}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classHumidity_ac8b78adca20d17cb7ccd62071239dc6f}\label{classHumidity_ac8b78adca20d17cb7ccd62071239dc6f}} 
+\index{Humidity@{Humidity}!````~Humidity@{$\sim$Humidity}}
+\index{````~Humidity@{$\sim$Humidity}!Humidity@{Humidity}}
+\doxysubsubsection{\texorpdfstring{$\sim$Humidity()}{~Humidity()}}
+{\footnotesize\ttfamily Humidity\+::$\sim$\+Humidity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor de clase \mbox{\hyperlink{classHumidity}{Humidity}}. 
+
+
+
+Definition at line 13 of file Humidity.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{13 \{\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classHumidity_aac879fb7bc5555ae53542b6808bc3991}\label{classHumidity_aac879fb7bc5555ae53542b6808bc3991}} 
+\index{Humidity@{Humidity}!readHumidity@{readHumidity}}
+\index{readHumidity@{readHumidity}!Humidity@{Humidity}}
+\doxysubsubsection{\texorpdfstring{readHumidity()}{readHumidity()}}
+{\footnotesize\ttfamily void Humidity\+::read\+Humidity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Lectura de Humedad. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 8 of file Humidity.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{8                            \{}
+\DoxyCodeLine{9     \mbox{\hyperlink{classSensor_a539251b81919773d9255b39e25b1e936}{readSensorVal}}();}
+\DoxyCodeLine{10     std::cout << \textcolor{stringliteral}{"{}The Humidity is of 88\%"{}} << std::endl;}
+\DoxyCodeLine{11 \}}
+
+\end{DoxyCode}
+
+
+References Sensor\+::read\+Sensor\+Val().
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHumidity_aac879fb7bc5555ae53542b6808bc3991_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=291pt]{classHumidity_aac879fb7bc5555ae53542b6808bc3991_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Humidity_8h}{Humidity.\+h}}\item 
+\mbox{\hyperlink{Humidity_8cpp}{Humidity.\+cpp}}\end{DoxyCompactItemize}
