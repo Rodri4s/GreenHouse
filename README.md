@@ -38,7 +38,7 @@ readSensorVal();
 Después de observar los posibles patrónes que se podían utilizar de la ppt de Patrones, se optó por utilizar el patrón de Method-Method, ya que, utilizando el ejemplo anterior, el método de readAirQ() está mandando a llamar el método de readSensorVal() y así para los demás tipos de herencia que se realizaron para las otras clases Padre-Hijo. Lo cual simplificaría el programa al momento de llamar los métodos de las clases padres(Camara y Sensor). Creando así los siguientes patrones:
 
 * Sensor()
-** AirQ()
+  * AirQ()
 Humidity()
 IlluminationLv()
 Temperature()
