@@ -5,7 +5,7 @@ Con esta última práctica se concluye el final del desarrollo del sistema de mo
 ###  Clases
 Como se ha ido mencionado en las prácticas anteriores, se crearon 11 clases para el desarrolo del sistema de monitoreo:
 
-User: creación del usuario a través de su nombre y el nif, para luego validarlo y autenticarlo.
+1. User: creación del usuario a través de su nombre y el nif, para luego validarlo y autenticarlo.
 Dashboard: interfaz del sistema de monitoreo para introducir la opción que se desea observar de este.
 Sensor: Lectura de distintos sensores:
 AirQ: Simulación de lectura de la calidad del aire del invernadero.
