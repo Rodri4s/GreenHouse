@@ -2,7 +2,7 @@
 Con esta última práctica se concluye el final del desarrollo del sistema de monitoreo del Inverdadero en donde se crearon diferentes clases en formato .cpp localizados en el fichero src con sus cabeceras .h en el fichero include, el programa principal main.cpp en el fichero build; el diagrama UML, demostración del Depurador GDB, documentación HTML y Latex en el fichero doxygen-doc; y finalemente también se añadió el archivo users.dat para la base datos de los usuarios.
 
 # Descripción de Implementación Realizada
-## Clases
+###  Clases
 Como se ha ido mencionado en las prácticas anteriores, se crearon 11 clases para el desarrolo del sistema de monitoreo:
 
 User: creación del usuario a través de su nombre y el nif, para luego validarlo y autenticarlo.
