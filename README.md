@@ -39,12 +39,12 @@ Después de observar los posibles patrónes que se podían utilizar de la ppt de
 
 * Sensor()
   * AirQ()
-Humidity()
-IlluminationLv()
-Temperature()
+  * Humidity()
+  * IlluminationLv()
+  * Temperature()
 * Camara()
-RGB()
-Thermic()
+  * RGB()
+  * Thermic()
 Base de Datos: Set de pares
 Par almacenar los usuarios al sistema se utilizó el template set y sus distintas funciones para observar que la información introducida no se repitiera o si esta se encontraba en la base de datos para ingresar al sistema. Cabe mencionar que no sólo se utilizó un set, sino que fue un set de pares para que esta no solo observara los datos introducidos, sino que observara que el nombre de usuario perteneciera al nif introducido. Y así observar que al introducir un nombre no autorizado pero un nif que ya estuviera conectada a un usuario autorizado, no intentara ingresar de esta forma. Al igual, se utiilizó este método al seleccionar la opción en el dashboard que es para actualizar la base de datos e introducir un nuevo usuario con permiso de usar el sistema de monitoreo.
 
